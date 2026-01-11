@@ -75,6 +75,3 @@ The script will:
 2. Update missing IATA codes.
 3. Check for flights within the next 6 months.
 4. Notify all users if a price lower than the "Lowest Price" in the sheet is found.
-
-## 📄 License
-This project is licensed under the MIT License.
