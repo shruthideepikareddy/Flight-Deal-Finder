@@ -2,7 +2,7 @@
 
 A powerful Python-based application that automates the search for cheap flights and notifies users when prices drop below their specified thresholds. It integrates multiple APIs to bridge the gap between real-time flight data and personalized user alerts.
 
-## 🚀 Features
+## 🚀 Features:
 
 - **Automated Price Monitoring**: Regularly checks for the cheapest flights from a base location to multiple destinations.
 - **IATA Code Integration**: Automatically retrieves and updates IATA airport codes for destinations using the Amadeus API.
