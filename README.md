@@ -4,10 +4,6 @@ An autonomous travel compliance engine for digital nomads. ExitVector tracks you
 
 ---
 
-## 🌟 Why This Project Stands Out (Resume Highlights)
-
-Instead of a generic tutorial project, this project showcases advanced software engineering and system design concepts:
-
 * **Schengen Rolling 180-Day Window Algorithm**: Implements the official European Union rolling-window presence calculation. It utilizes set-based date deduplication to ensure flight transit days and layovers are not double-counted across state transfers.
 * **AI-Driven Visa Rule Extraction**: Leverages the Gemini API with structured schema output definitions. Instead of hardcoding visa regulations for 190+ countries, it uses an LLM to parse travel rules into validated Pydantic models.
 * **Pluggable client design (Strategy Pattern)**: Features a decoupled flight search infrastructure with a live `AmadeusClient` and a fully offline `MockAmadeusClient` for mock simulations and local unit testing.
